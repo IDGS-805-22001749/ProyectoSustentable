@@ -24,5 +24,11 @@ def chat():
     texto = respuesta.generations[0].text.strip()
     return jsonify({"respuesta": texto})
 
+
+
+
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
